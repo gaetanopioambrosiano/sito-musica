@@ -336,20 +336,17 @@ footer p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 24px;
+    padding: 0px;
     text-align: center;
     color: white;
     width: 90%;
     max-width: 90%;
     box-sizing: border-box;
-    z-index: 1;
   }
 
   .griglia,
   .grid-album {
-    grid-template-columns: 1fr; /* 1 colonna su mobile */
+    grid-template-columns: 1fr; 
   }
 
   .concerti {
@@ -368,7 +365,7 @@ footer p {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 20px;
   }
 
   p, .testo-concerti p {
