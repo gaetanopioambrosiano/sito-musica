@@ -349,6 +349,11 @@ footer p {
     grid-template-columns: 1fr; 
   }
 
+  .grid-img {
+  height: auto;
+  width: 600px;
+}
+
   .concerti {
     flex-direction: column;
     padding: 48px 16px;
