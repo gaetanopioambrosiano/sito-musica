@@ -127,7 +127,7 @@ h1 {
   align-items: flex-start;
   justify-content: space-between;
   gap: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .blocco-rap reverse {
@@ -232,13 +232,12 @@ h1 {
 }
 
 .artista-card :hover{
-  color: white;
+  color: red;
 }
 
 .footer {
   background: black;
-  width: 100vw; 
-  margin-left: calc(-50vw + 50%);
+  width: 100%; 
   padding: 40px 20px;
   text-align: center;
   box-sizing: border-box;
@@ -382,3 +381,4 @@ footer p {
     max-width: 100%;
   }
 }
+
